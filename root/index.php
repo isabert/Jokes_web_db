@@ -18,9 +18,23 @@ echo "<br>";
   <input type="submit" value="Submit">
 </form> 
 
+<br>
+<hr>
+<br>
+
+<form action="add_joke.php">
+  <label for="newjoke">Add A New Joke</label><br>
+  <input type="text" id="newjoke" name="newjoke" value="default joke"><br>
+  
+  <label for="newanswer">Add Answer To Joke</label><br>
+  <input type="text" id="newanswer" name="newanswer" value="default answer"><br>
+  
+  <input type="submit" value="Submit">
+</form> 
+
+
 <?php
 // include "search_key_word.php";
-
 $mysqli->close();
 ?>
 

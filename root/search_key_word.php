@@ -16,3 +16,6 @@ if ($result->num_rows > 0) {
   echo "0 results";
 }
 ?>
+
+<!--go back to main page-->
+<a href="index.php"> return to main page</a>
